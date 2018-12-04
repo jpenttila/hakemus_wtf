@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: left;
+	font-family: sans-serif;
+	background-color: #e8d5be;
+}
+
+.duo-grid-container {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 20px;
+}
+
+.duo-grid {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+}
+
+.duo-grid-item {
+	border: 1px solid #535354;
+	width: auto;
+	height: auto;
+	background-color: #ba9c86;
+}
+
+.duo-grid-item-too {
+	border: 1px solid #535354;
+	width: auto;
+	height: auto;
+	padding-left: 5px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.grid {
+  width: auto;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: left;
+}
+
+.grid-item {
+  border: 1px solid #535354;
+  background-color: #ba9c86;
+  height: auto;
+  width: 500px;
+  padding: 5px;
+}
+
+.loc,
+.date,
+.contents {
+	padding:5px;
+}
+
+.loc	{
+	font-weight: bold;
+}
+
+.date {
+	font-style: italic;
+}
+
+ul {
+	padding-left: 50px;
+}
+
+h2, h3 {
+  display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: left;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.page {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: left;
+	padding: 5px;
+	margin-left: 20%;
+}
+
+.photo 	{
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
+
+.dateline {
+	padding-top: 10px;}
+
+.signature_hand {
+	padding: 5px;
+	font-size: 50px;
+}
+
+.divider {
+	display: flex;
+	justify-content: left;
+	width: 50%;
+	height: 1px;
+	background: #000000;
+	margin-top: 10px;
+}

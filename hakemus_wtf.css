@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e8d5be;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.contents {
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+.deco {
+  width: 25%;
+  padding-top: 15%;
+}
+
+.main-text  {
+  text-align: left;
+  font-family: sans-serif;
+  width: 75%;
+}
+
+.contents:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.page {
+  margin-top: 20px;
+}
+
+.duo-grid-container {
+  margin-top: 20px;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 20px;
+}
+
+.duo-grid {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+}
+
+.duo-grid-item {
+	width: auto;
+	height: auto;
+}
+
+.duo-grid-item-too {
+	width: auto;
+	height: auto;
+	padding-left: 200px;
+}
+
+.text, .signed-by, .appendix {
+  margin-top: 15px;
+  width: auto;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: left;
+}
+
+h2, h3 {
+  display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: left;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.dateline {
+	padding-top: 10px;}
+
+.signature_hand {
+	padding: 5px;
+	font-size: 50px;
+}
